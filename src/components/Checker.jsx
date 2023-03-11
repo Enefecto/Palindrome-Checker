@@ -17,6 +17,7 @@ const Checker = () => {
 
     const restart = (e) => {
         setText('');
+        setchecker(false);
     }
 
     const verificator = (texto) => {
@@ -37,7 +38,7 @@ const Checker = () => {
 
     return (
         <div className='conteiner'>
-            <h1 className='title'>Introduce Your Text</h1>
+            <h1 className='title'>Introduce Your Palindrome</h1>
             <input className='input' type='text' onChange={updater} value={text}/>
             <div className='downDiv'>
                 <div className='left'>

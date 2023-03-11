@@ -12,6 +12,7 @@
 .title{
     color: rgb(44, 62, 80);
     text-transform: uppercase;
+    text-align: center;
 }
 .input{
     height: 5rem;
