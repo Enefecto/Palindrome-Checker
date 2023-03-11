@@ -1,0 +1,44 @@
+.conteiner{
+    width: 60rem;
+    height: 30rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.title{
+    color: rgb(44, 62, 80);
+    text-transform: uppercase;
+}
+.input{
+    height: 5rem;
+    width: 90%;
+    border-radius: 1rem;
+    border: 1px black solid;
+    background-color: rgb(39, 174, 96);
+    color: rgb(44, 62, 80);
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 5px;
+}
+.restar{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(44, 62, 80);
+    border: 1px black solid;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.downDiv{
+    width: 90%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
